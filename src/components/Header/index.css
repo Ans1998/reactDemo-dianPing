@@ -1,0 +1,40 @@
+
+.header {
+    height: 45px;
+    line-height: 45px;
+    background-color: #f0f0f0;
+    padding: 0 10px;
+    text-align: center;
+    color: #f63;
+    position: relative;
+    z-index: 300;
+}
+
+.header__back {
+    padding-left: 16px;
+    position: absolute;
+    left: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.header__back::before {
+    border: #f63 solid 3px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    display: block;
+    content: '\20';
+    width: 12px;
+    height: 12px;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.header__title {
+    color: #333;
+    font-size: 16px;
+}
