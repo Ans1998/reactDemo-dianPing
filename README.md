@@ -9,7 +9,7 @@
 
 > 项目演示
 
- ![项目演示](https://github.com/Aliceco/vueAdmin/blob/master/src/assets/img/gtAWVDyZts.gif)
+ ![项目演示](https://github.com/Aliceco/reactDemo-dianPing/blob/master/src/static/img/Css0uggQdl.gif)
  
 ## 安装
 ```
